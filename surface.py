@@ -390,6 +390,7 @@ def faceRecognize(detector='haar',threshold=0.4, write_video = False,resize_w=70
                     face_count+=1
 
 
+
             # 绘制人脸点
             cv2.putText(frame, predict_name + " " + str(round(min_distance,2)) , (l, b+30), cv2.FONT_ITALIC, 0.8, (0, 255, 0), 2)
             
