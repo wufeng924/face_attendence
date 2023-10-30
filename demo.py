@@ -278,8 +278,6 @@ def faceRecognizer(threshold = 0.5):
 
 
 
-
-
         # 计算帧率
         now = time.time()
         fps = 1/(now - fps_time)
