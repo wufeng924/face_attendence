@@ -396,7 +396,6 @@ def faceRecognize(detector='haar',threshold=0.4, write_video = False,resize_w=70
             # 处理下一张脸
 
 
-
         now = time.time()
         fpsText = 1 / (now - frameTime)
         frameTime = now
